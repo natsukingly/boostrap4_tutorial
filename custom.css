@@ -1,0 +1,177 @@
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+ */
+
+
+.org-section{
+  padding: 50px 0;
+}
+@media(min-width: 767px){
+  .org-section{
+    padding: 80px 60px;
+  }
+}
+
+.org-caret-off::before {
+    display: none;
+}
+.org-caret-off::after {
+    display: none;
+}
+
+.org-navbar-nav{
+  max-width: 200px;
+  width: auto;
+  background-color: rgba(255,255,255,.6);
+  padding: 20px;
+  margin-left: auto;
+  border-radius: 5px;
+}
+
+.org-main-title{
+  font-size: 60px;
+  font-family: 'Plaster', cursive;">
+}
+
+.org-section-title{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.org-section-title h2,
+.org-section-title small{
+  font-weight: 600;
+}
+
+.org-caption{
+  color: #999;
+  font-size: 12px;
+  margin: 0;
+}
+
+body, a{
+  color: #555555;
+  font-family: "Noto Sans Japanese";
+}
+
+a:hover{
+  color: #000;
+}
+
+ul li{
+  list-style: none;
+  list-style-position: inside;
+}
+
+.org-dark-overlay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .4);
+  color: white;
+}
+
+.org-color{
+  color: #001E42;
+}
+
+.org-accent-color{
+  color: #E76C7B;
+}
+.org-bg{
+  background-color: #001E42;
+}
+
+.org-accent-bg{
+  background-color: #001E42;
+}
+
+.org-paragraph{
+  line-height: 40px;
+  max-width: 600px;
+  margin: 0 auto 50px;;
+}
+
+.org-bg-img{
+  background-position: center;
+  background-size: cover;
+}
+
+.org-carousel-img{
+  height: 500px;
+}
+@media(min-width: 767px){
+  .org-carousel-img{
+    height: 600px;
+  }
+}
+
+.org-card-img-top{
+  height: 160px;
+}
+@media(min-width: 576px) and (max-width: 767px) {
+  .org-card-img-top{
+    height: 240px;
+  }
+}
+
+.org-card-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.org-card-icon span{
+  height: 120px;
+  width: 120px;
+  line-height: 120px;
+  text-align: center;
+  font-size: 40px;
+  background-size: cover;
+  background-position: center;
+  /* color: white; */
+}
+
+.org-card{
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  /* mb-4にあわせて */
+  margin-bottom: 1.5rem;
+}
+
+.badge.pre-wrap{
+  white-space: pre-wrap;
+}
+
+.card-link[aria-expanded=true] i.fa.fa-plus {
+   display: none;
+}
+.card-link[aria-expanded=false] i.fa.fa-minus {
+   display: none;
+}
+
+.org-btn{
+  font-weight: 600;
+  padding: 10px 20px;
+  pointer-events: none;
+  margin-bottom: 5px;
+}
+
+.fa-plus, .fa-minus{
+  color: #696969;
+}

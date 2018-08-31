@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="駆け出しエンジニアエンジニア山口夏生のポートフォリオサイト">
+    <meta name="author" content="Natsuki Yamaguchi">
+    <title>Natsuki Yamaguchi</title>
+    <!-- google fontsの読み込み -->
+    <link href="https://fonts.googleapis.com/css?family=Plaster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
+    <!-- bootstrap　CSSの読み込み -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- fontawesome　CSSの読み込み -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- 自分のCSSの読み込み -->
+    <link rel="stylesheet" href="custom.css" type="text/css">
+
+  </head>
+
+  <body>
+
+    <!-- 従来のヘッダー -->
+    <!-- <nav id="header" class="fixed-top navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+      <a class="navbar-brand" href="#">
+        <img src="./img/profile_pic.jpg" style="width: 40px;" class="rounded mr-2">
+        BS超入門
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
+          <a class="nav-item nav-link disabled" href="#">Disabled</a>
+        </div>
+      </div>
+    </nav> -->
+
+    <div id="header" class="btn-group fixed-top m-3">
+
+      <!-- $enable-shadowsした後に -->
+      <button type="button" style="box-shadow: 0 0 5px #000;" class="btn btn-white dropdown-toggle org-caret-off" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="p-2 fa fa-bars"></i>
+      </button>
+      <div class="dropdown-menu mt-3">
+        <div class="dropdown-item disabled d-flex align-items-center" href="#">
+          <img src="./img/profile_pic.jpg" style="width: 30px;" class="rounded mr-2">
+          <span class="text-dark font-weight-bold">
+          山口 夏生
+          </span>
+        </div>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">自己紹介</a>
+        <a class="dropdown-item" href="#">挑戦したい事</a>
+        <a class="dropdown-item" href="#">スキル・資格</a>
+        <a class="dropdown-item" href="#">ヒストリー</a>
+        <a class="dropdown-item" href="#">ポートフォリオ</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item btn" href="#">BS超入門！！</a>
+      </div>
+    </div>
+
+    <section id="top" class="position-relative">
+      <!-- カルーセル -->
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="org-bg-img org-carousel-img" style="background-image:url('./img/gyoen.jpg')" alt="First slide"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="org-bg-img org-carousel-img" style="background-image:url('./img/office.jpg')" alt="First slide"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="org-bg-img org-carousel-img" style="background-image:url('./img/house.jpg')" alt="First slide"></div>
+          </div>
+          <div class="carousel-item">
+            <div class="org-bg-img org-carousel-img" style="background-image:url('./img/lake.jpg')" alt="First slide"></div>
+          </div>
+        </div>
+      </div>
+      <div class="org-dark-overlay d-flex align-items-center text-center">
+        <div class="container">
+          <div class="org-section-title">
+            <h2 class="org-main-title"> NATSUKI<br>YAMAGUCHI</h2>
+            <p class="org-paragraph">この読みにくいフォントは、「pluster」といいます。
+              <br>私の名前は、ヤマグチナツキ。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="introduction" class="org-section text-center">
+      <div class="container">
+        <div class="org-section-title">
+          <h2>INTRODUCTION</h2>
+          <small>自己紹介</small>
+        </div>
+        <p class="org-paragraph" >はじめまして、山口夏生（なつき）です。
+「みんなが夢中になるサービス」ことを目標に、Webサービスの開発を行なっています。趣味は、風の強い日のBBQとUK ROCKを聞くこと。
+</p>
+<p class="org-paragraph">
+2017年の夏に前職である英会話講師業を辞めてから本格的にプログラミングの学習（本格的なニート生活）を始めて、今までにウェブサービス２つとチュートリアル１つを作成し公開しました。現在は、新宿にあるゆるいWEB系の会社で働いています。RailsとWordpressの案件を主に扱っています。
+</p>
+      </div>
+    </section>
+
+  <section id="missions" class="org-section text-center bg-light">
+      <div class="container">
+        <div class="org-section-title">
+          <h2>MISSIONS</h2>
+          <small>挑戦したいこと</small>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="card bg-light mb-4 border-0">
+              <div class="org-card-icon">
+                <span class="d-inline-block rounded-circle bg-white p10">
+                  <i class="fa fa-book"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">新しいテクノロジーの学習</h5>
+                <small class="card-text">特にVR/ARに興味があります。</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="card bg-light mb-4 border-0">
+              <div class="org-card-icon">
+                <span class="d-inline-block rounded-circle bg-white p10">
+                  <i class="fa fa-globe-americas"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">海外でリモート</h5>
+                <small class="card-text">半年ぐらい海外のリゾート地で働きたいです。</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="card bg-light mb-4 border-0">
+              <div class="org-card-icon">
+                <span class="d-inline-block rounded-circle bg-white p10">
+                  <i class="fa fa-building"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">起業</h5>
+                <small class="card-text">仲間と最高のサービスを世に広めたいです。</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="card bg-light mb-4 border-0">
+              <div class="org-card-icon">
+                <span class="d-inline-block rounded-circle bg-white p10">
+                  <i class="fa fa-user-circle"></i>
+                </span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">コミュニティ</h5>
+                <small class="card-text">色んな人に会って、たくさん刺激を受けたいです。</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="org-section text-center org-bg">
+      <div class="container">
+        <div class="org-section-title text-white">
+          <h2>SKILLS</h2>
+          <small>スキル・資格</small>
+        </div>
+        <div style="max-width: 500px;" class="mx-auto mb-5">
+          <button type="button" class="btn org-btn">英検一級</button>
+          <button type="button" class="btn org-btn">TOEIC985点</button>
+          <button type="button" class="btn org-btn">ファイナンシャルアドバイザー３級</button>
+          <button type="button" class="btn org-btn">
+            Ruby<span class="ml-1 badge badge-dark">3</span>
+          </button>
+          <button type="button" class="btn org-btn">
+            Ruby on Rails<span class="ml-1 badge badge-dark">3.1</span>
+          </button>
+          <button type="button" class="btn org-btn">
+            JavaScript<span class="ml-1 badge badge-dark">3</span>
+          </button>
+          <button type="button" class="btn org-btn">
+            React/Redux<span class="ml-1 badge badge-dark">2</span>
+          </button>
+          <button type="button" class="btn org-btn">
+            Vue/Vuex<span class="ml-1 badge badge-dark">2</span>
+          </button>
+          <button type="button" class="btn org-btn">
+            Sketch<span class="ml-1 badge badge-dark">2</span>
+          </button>
+        </div>
+        <small class="text-light">1：学習始めたばかり　2：一人で何か開発できる　<br>3：業務で扱いはじめた　4：結構得意　5：神</small>
+      </div>
+    </section>
+    <section id="histroy" class="org-section">
+      <div class="container">
+        <div class="org-section-title">
+          <h2>HISTORY</h2>
+          <small>ヒストリー</small>
+        </div>
+        <!-- アコーディオン -->
+        <div class="mt-5">
+          <h3 class="h5 font-weight-bold org-color d-flex align-items-center">#SCHOOL<span class="ml-3 org-caption" style="color: #696969">学歴</span></h3>
+        </div>
+        <div id="accordion">
+          <div class="card border-0">
+
+            <a class="card-link" data-toggle="collapse" href="#schoolOne" aria-expanded="false">
+              <div class="card-header pl-0 bg-white d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0 font-weight-bold">University of Nevada Las Vegas卒業[2014-12]</p>
+                  <p class="org-caption">Bachelor / Hotel Management</p>
+                </div>
+
+                <i class="fa fa-plus"></i>
+                <i class="fa fa-minus"></i>
+              </div>
+            </a>
+            <div id="schoolOne" class="collapse">
+              <div class="card-body pl-0">
+                ホテルや飲食店だけでなく、通常のビジネス経営学についても学びました。
+                卒業までに１０００時間のカスタマーサービス就労経験が必要だったので、ホテル街にあるCoach Men's storeでアルバイトをしていました。
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <a class="card-link" data-toggle="collapse" href="#schoolTwo" aria-expanded="false">
+              <div class="card-header pl-0 bg-white d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0 font-weight-bold">Shoreline Community College卒業[2011-04]</p>
+                  <p class="org-caption">Associate / Business Mangement</p>
+                </div>
+                <i class="fa fa-plus"></i>
+                <i class="fa fa-minus"></i>
+              </div>
+            </a>
+            <div id="schoolTwo" class="collapse">
+              <div class="card-body pl-0">
+                International Peer Mentor(生徒会役員のような仕事)をしていました。主に留学生のオリエンテーション（１００ー２００人ぐらいの規模）を一部企画運営してました。
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <a class="card-link" data-toggle="collapse" href="#schoolThree" aria-expanded="false">
+              <div class="card-header pl-0 bg-white d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0 font-weight-bold">Shorecrest Highschool[2010-06]</p>
+                </div>
+                <i class="fa fa-plus"></i>
+                <i class="fa fa-minus"></i>
+              </div>
+            </a>
+            <div id="schoolThree" class="collapse">
+              <div class="card-body pl-0">
+                交換留学生として一年通いました。
+                卒業せずに、そのままCommunity Collegeに進みました。
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-5">
+          <h3 class="h5 font-weight-bold org-color d-flex align-items-center">#WORK<span class="ml-3 org-caption" style="color: #696969">職歴</span></h3>
+        </div>
+        <!-- アコーディオン -->
+        <div>
+          <div class="card border-0">
+
+            <a class="card-link" data-toggle="collapse" href="#workingOne" aria-expanded="false">
+              <div class="card-header pl-0 bg-white d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0 font-weight-bold">Shoreline Community College卒業[2011-04]</p>
+                  <p class="org-caption">Associate / Business Mangement</p>
+                </div>
+                <i class="fa fa-plus"></i>
+                <i class="fa fa-minus"></i>
+              </div>
+            </a>
+            <div id="workingOne" class="collapse">
+              <div class="card-body pl-0">
+                ホテルや飲食店だけでなく、通常のビジネス経営学についても学びました。
+                卒業までに１０００時間のカスタマーサービス就労経験が必要だったので、ホテル街にあるCoach Men's storeでアルバイトをしていました。
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <a class="card-link" data-toggle="collapse" href="#workingTwo" aria-expanded="false">
+              <div class="card-header pl-0 bg-white d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0 font-weight-bold">Shoreline Community College卒業[2011-04]</p>
+                  <p class="org-caption">Associate / Business Mangement</p>
+                </div>
+                <i class="fa fa-plus"></i>
+                <i class="fa fa-minus"></i>
+              </div>
+            </a>
+            <div id="workingTwo" class="collapse">
+              <div class="card-body pl-0">
+                International Peer Mentor(生徒会役員のような仕事)をしていました。主に留学生のオリエンテーション（１００ー２００人ぐらいの規模）を一部企画運営してました。
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <a class="card-link" data-toggle="collapse" href="#workingThree" aria-expanded="false">
+              <div class="card-header pl-0 bg-white d-flex justify-content-between align-items-center">
+                <div>
+                  <p class="mb-0 font-weight-bold">Shoreline Community College卒業[2011-04]</p>
+                  <p class="org-caption">Associate / Business Mangement</p>
+                </div>
+                <i class="fa fa-plus"></i>
+                <i class="fa fa-minus"></i>
+              </div>
+            </a>
+            <div id="workingThree" class="collapse">
+              <div class="card-body pl-0">
+                交換留学生として一年通いました。
+                卒業せずに、そのままCommunity Collegeに進みました。
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="org-section bg-light">
+      <div class="container">
+        <div class="org-section-title">
+          <h2>PORTFOLIO</h2>
+          <small>ポートフォリオ</small>
+        </div>
+        <div class="row">
+          <div class="col-md-4 d-flex">
+            <div class="card mb-4 border-0 org-card">
+              <div class="org-bg-img org-card-img-top" style="background-image:url('./img/gyoen.jpg')" alt="First slide"></div>
+              <div class="card-body">
+                <h5 class="card-title">React.js超入門</h5>
+                <small class="card-text">挫折した人でも学べるReactチュートリアル</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex">
+            <div class="card mb-4 border-0 org-card">
+              <div class="org-bg-img org-card-img-top" style="background-image:url('./img/gyoen.jpg')" alt="First slide"></div>
+              <div class="card-body">
+                <h5 class="card-title">Immitation Game</h5>
+                <small class="card-text">飲み会で盛り上がる、社交的なクイズゲーム</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex">
+            <div class="card mb-4 border-0 org-card">
+              <div class="org-bg-img org-card-img-top" style="background-image:url('./img/gyoen.jpg')" alt="First slide"></div>
+              <div class="card-body">
+                <h5 class="card-title">NEWSB</h5>
+                <small class="card-text">NEWSに特化したSNS</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="message" class="org-section text-center text-light bg-img" style="background: linear-gradient(
+      rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/country.jpg')">
+      <div class="container">
+        <div class="org-section-title">
+          <h2>MESSAGE</h2>
+          <small>心意気</small>
+        </div>
+          <p class="org-paragraph">
+            僕は自分の好きな世界を拡張する為にプログラミングを学習してきました。
+            例えば、一番最初のアプリは当時どハマりしていた「NewsPicks」をよりSNSに近い形で実現したものです。Progateオフ会もProgateというプログラミング学習サービスが好きで好きで仕方がなく、作ってしまいました。
+          </p>
+
+          <p class="org-paragraph">
+            HTML, CSS, JavaScript, React, Ruby, Ruby on Railsをメインに学習しています。
+            どうぞよろしくお願いします。
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="org-section org-bg text-light" style="height: 300px;">
+      <div class="container">
+        <div class="org-section-title">
+          <p class="mb-4">いつでもご連絡ください〜！！</p>
+          <p class="mb-4">
+            <button type="button" class="btn mx-2">
+              <a>TWITTERで繋がる！</a>
+            </button>
+            <button type="button" class="btn mx-2">
+              <a>WANTEDLYで繋がる！</a>
+            </button>
+          </p>
+          <small>© 2018 NATSUKI YAMAGUCHI</small>
+        </div>
+      </div>
+    </footer>
+    <!-- jqueryの読み込み -->
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <!-- popper.jsの読み込み(dropdownやtooltipsなどに必要なライブラリ)-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!-- bootstrap　JavaScriptの読み込み -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
