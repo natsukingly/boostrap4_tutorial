@@ -40,26 +40,26 @@
     </nav> -->
 
     <div id="header" class="btn-group fixed-top m-3">
-
-      <!-- $enable-shadowsした後に -->
-      <button type="button" style="box-shadow: 0 0 5px #000;" class="btn btn-white dropdown-toggle org-caret-off" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="p-2 fa fa-bars"></i>
-      </button>
-      <div class="dropdown-menu mt-3">
-        <div class="dropdown-item disabled d-flex align-items-center" href="#">
-          <img src="./img/profile_pic.jpg" style="width: 30px;" class="rounded mr-2">
-          <span class="text-dark font-weight-bold">
-          山口 夏生
-          </span>
+      <div class="container-fluid">
+        <button type="button" style="box-shadow: 0 0 5px #000;" class="btn btn-white dropdown-toggle org-caret-off" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="p-2 fa fa-bars"></i>
+        </button>
+        <div class="dropdown-menu mt-3">
+          <div class="dropdown-item disabled d-flex align-items-center" href="#">
+            <img src="./img/profile_pic.jpg" style="width: 30px;" class="rounded mr-2">
+            <span class="text-dark font-weight-bold">
+            山口 夏生
+            </span>
+          </div>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">自己紹介</a>
+          <a class="dropdown-item" href="#">挑戦したい事</a>
+          <a class="dropdown-item" href="#">スキル・資格</a>
+          <a class="dropdown-item" href="#">ヒストリー</a>
+          <a class="dropdown-item" href="#">ポートフォリオ</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item btn" href="#">BS超入門！！</a>
         </div>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">自己紹介</a>
-        <a class="dropdown-item" href="#">挑戦したい事</a>
-        <a class="dropdown-item" href="#">スキル・資格</a>
-        <a class="dropdown-item" href="#">ヒストリー</a>
-        <a class="dropdown-item" href="#">ポートフォリオ</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item btn" href="#">BS超入門！！</a>
       </div>
     </div>
 
@@ -98,7 +98,7 @@
           <h2>INTRODUCTION</h2>
           <small>自己紹介</small>
         </div>
-        <p class="org-paragraph" >はじめまして、山口夏生（なつき）です。
+        <p class="org-paragraph" >はじめまして、ヤマグチナツキです。
 「みんなが夢中になるサービス」ことを目標に、Webサービスの開発を行なっています。趣味は、風の強い日のBBQとUK ROCKを聞くこと。
 </p>
 <p class="org-paragraph">
@@ -276,7 +276,6 @@
         <!-- アコーディオン -->
         <div>
           <div class="card border-0">
-
             <a class="card-link" data-toggle="collapse" href="#workingOne" aria-expanded="false">
               <div class="card-header pl-0 bg-white d-flex justify-content-between align-items-center">
                 <div>
@@ -341,7 +340,7 @@
         <div class="row">
           <div class="col-md-4 d-flex">
             <div class="card mb-4 border-0 org-card">
-              <div class="org-bg-img org-card-img-top" style="background-image:url('./img/gyoen.jpg')" alt="First slide"></div>
+              <div class="org-bg-img org-card-img-top" style="background-image:url('./img/portfolio/react.png')" alt="First slide"></div>
               <div class="card-body">
                 <h5 class="card-title">React.js超入門</h5>
                 <small class="card-text">挫折した人でも学べるReactチュートリアル</small>
@@ -350,16 +349,16 @@
           </div>
           <div class="col-md-4 d-flex">
             <div class="card mb-4 border-0 org-card">
-              <div class="org-bg-img org-card-img-top" style="background-image:url('./img/gyoen.jpg')" alt="First slide"></div>
+              <div class="org-bg-img org-card-img-top" style="background-image:url('./img/portfolio/imitation.png')" alt="First slide"></div>
               <div class="card-body">
-                <h5 class="card-title">Immitation Game</h5>
+                <h5 class="card-title">Imitation Game</h5>
                 <small class="card-text">飲み会で盛り上がる、社交的なクイズゲーム</small>
               </div>
             </div>
           </div>
           <div class="col-md-4 d-flex">
             <div class="card mb-4 border-0 org-card">
-              <div class="org-bg-img org-card-img-top" style="background-image:url('./img/gyoen.jpg')" alt="First slide"></div>
+              <div class="org-bg-img org-card-img-top" style="background-image:url('./img/portfolio/newsb.png')" alt="First slide"></div>
               <div class="card-body">
                 <h5 class="card-title">NEWSB</h5>
                 <small class="card-text">NEWSに特化したSNS</small>
@@ -370,8 +369,8 @@
 
       </div>
     </section>
-    <section id="message" class="org-section text-center text-light bg-img" style="background: linear-gradient(
-      rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/country.jpg')">
+    <section id="message" class="org-section text-center text-light org-bg-img" style="background: linear-gradient(
+      rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/country.jpg') center/cover">
       <div class="container">
         <div class="org-section-title">
           <h2>MESSAGE</h2>
@@ -379,20 +378,12 @@
         </div>
           <p class="org-paragraph">
             僕は自分の好きな世界を拡張する為にプログラミングを学習してきました。
-            例えば、一番最初のアプリは当時どハマりしていた「NewsPicks」をよりSNSに近い形で実現したものです。Progateオフ会もProgateというプログラミング学習サービスが好きで好きで仕方がなく、作ってしまいました。
+            例えば、一番最初のアプリは当時好きで使っていた「NewsPicks」のスピンオフでした。Progateオフ会もProgateというプログラミング学習サービスが好きで好きで仕方がなく、作りました。
           </p>
 
           <p class="org-paragraph">
-            HTML, CSS, JavaScript, React, Ruby, Ruby on Railsをメインに学習しています。
-            どうぞよろしくお願いします。
+            これからは、今まで養ってきた自分独自の世界観を大切にしながらも、色んな人と触れ合って、ユーザーに本当に必要とされるサービスを作りたいと思っています。
           </p>
-        </div>
-      </div>
-    </section>
-    <footer id="contact" class="org-section org-bg text-light" style="height: 300px;">
-      <div class="container">
-        <div class="org-section-title">
-          <p class="mb-4">いつでもご連絡ください〜！！</p>
           <p class="mb-4">
             <button type="button" class="btn mx-2">
               <a>TWITTERで繋がる！</a>
@@ -401,6 +392,13 @@
               <a>WANTEDLYで繋がる！</a>
             </button>
           </p>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="org-section org-bg text-light" style="height: 300px;">
+      <div class="container">
+        <div class="org-section-title">
+          <p class="mb-4">いつでもご連絡ください〜！！</p>
           <small>© 2018 NATSUKI YAMAGUCHI</small>
         </div>
       </div>
